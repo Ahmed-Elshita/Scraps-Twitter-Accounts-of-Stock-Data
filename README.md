@@ -1,2 +1,11 @@
 # Scraps-Twitter-Accounts-of-Stock-Data
-Use Python to create a tool that scraps Twitter accounts for data
+
+<h1 align="left">Use Python to create a tool that scraps Twitter accounts for data</h1>
+
+<h2 align="left">Twitter Scraper Project</h2>
+
+###
+
+<p align="left">Overview<br><br>This Python project aims to create a tool that scrapes Twitter accounts for data without using the Twitter API. The scraper will monitor specified Twitter accounts for mentions of stock symbols (cashtags) and provide insights into the frequency of mentions for each symbol over time.<br><br>Project Components:<br><br>1- Dependencies Installation:<br>First, download the appropriate WebDriver (e.g., Chrome WebDriver) and ensure it is in your system path.<br>Install the required libraries . The necessary libraries include Selenium for web scraping and Pandas for data manipulation.<br><br>2- Script Execution:<br>The main script twitter_scraper.py utilizes Selenium to log in to Twitter and scrape data from specified URLs.<br>It prompts the user for a list of Twitter accounts, the target stock symbol (cashtag), and the time interval for scraping sessions.<br><br>3- Data Processing:<br>The script extracts tweet data from the specified URLs and processes it to identify mentions of the target stock symbol ('$TSLA', '$AAPL', etc.).<br>It creates a DataFrame to organize the extracted data and performs data cleaning to handle missing values or formatting issues.<br><br>4-Analysis and Visualization:<br>The processed data is analyzed to determine the frequency of mentions for the target stock symbol within the specified time interval.<br>Visualization tools such as Matplotlib or Plotly can be used to create charts or plots showing the frequency of mentions over time.<br><br>Usage Example<br>Run twitter_scraper.py and provide the required inputs:<br>List of Twitter accounts to monitor.<br>Target stock symbol (cashtag) to monitor (e.g., '$TSLA', '$AAPL').<br>Time interval for scraping sessions (e.g., 15 minutes).<br>The script will continuously monitor the specified Twitter accounts, scrape data, and analyze mentions of the target stock symbol.<br>It will display output messages such as:<br>"'$TSLA' was mentioned '10' times in the last '15' minutes."<br>Other relevant insights based on the provided inputs.</p>
+
+###
